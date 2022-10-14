@@ -24,3 +24,10 @@ a {
     background: black;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .css-1xhl45l > *:not(style) ~ *:not(style) {
+    -webkit-margin-start: var(--chakra-space-12) !important;
+    margin-inline-start: var(--chakra-space-12) !important;
+  }
+}
